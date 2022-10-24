@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class LoanCalculator {
 
     /**
-     * TODO: finish out this JavaDoc comment block.
-     * FIXME: WHAT DOES THIS METHOD DO?
-     * 
-     * @param ???
-     * @return ???
+     * This method calculates the amount of interest paid over three months
+     * and returns the amount after interest payments
+     * @param int Amount - total amount borrowed
+     * @return int amount - amount left after 3 months of 10% interest being paid
      */
     static int getRemainingAmountIn3Months(int amount) {
         // TODO: Add your code below
