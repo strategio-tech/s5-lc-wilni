@@ -14,9 +14,9 @@ public class LoanCalculator {
         // TODO: Add your code below
         for(int i = 0; i < 3; i++){
             double interest = amount * 0.1;
-            amount -= interest;
+            amount -= (int)interest;
         }
-        return (int)amount;
+        return amount;
     }
 
     public static void main(String[] args) {
