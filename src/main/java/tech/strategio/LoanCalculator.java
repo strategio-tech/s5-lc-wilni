@@ -13,6 +13,11 @@ public class LoanCalculator {
      */
     static int getRemainingAmountIn3Months(int amount) {
         // TODO: Add your code below
+        for(int i = 0; i < 3; i++){
+            double interest = amount * 0.1;
+            amount -= interest;
+        }
+        return amount;
     }
 
     public static void main(String[] args) {
