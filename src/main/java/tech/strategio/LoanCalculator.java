@@ -16,7 +16,7 @@ public class LoanCalculator {
             double interest = amount * 0.1;
             amount -= interest;
         }
-        return amount;
+        return (int)amount;
     }
 
     public static void main(String[] args) {
